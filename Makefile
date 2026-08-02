@@ -18,8 +18,8 @@ include $(TOPDIR)/rules.mk
 # finally make package/xinfc/compile will produce package for you.
 
 PKG_NAME:=xinfc
-PKG_VERSION:=1.1.0
-PKG_RELEASE:=1
+PKG_VERSION:=1.0.0
+PKG_RELEASE:=$(AUTORELEASE)
 
 PKG_MAINTAINER:=Alexey N. Vinogradov <a.n.vinogradov@gmail.com>
 PKG_BUILD_DIR:=$(BUILD_DIR)/xinfc-$(PKG_VERSION)
